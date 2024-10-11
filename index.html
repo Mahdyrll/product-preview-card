@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">  
+  <link rel="stylesheet" href="./output.css">
+  <title>Product preview card component</title>
+</head>
+<body class="bg-[#F3EBE2]">
+  <div class="ml-auto mr-auto w-[21.5rem] mt-7 mb-10 sm:grid sm:grid-cols-2 sm:w-[43%] sm:mt-[9rem] sm:mb-[9rem]">
+    <div class="sm:w-auto">
+      <img class="hidden sm:block sm:rounded-l-xl" src="./images/image-product-desktop.jpg" alt="image-product-desktop">
+      <img class="rounded-t-xl sm:hidden" src="./images/image-product-mobile.jpg" alt="image-product-mobile">
+    </div>
+    <div class="bg-white p-6 rounded-b-xl sm:rounded-b-none sm:rounded-r-xl sm:w-auto sm:p-8">
+      <p class="font-montserratRegular text-[12px] tracking-[0.3rem] text-stone-500">PERFUME</p>
+      <p class="font-frauncesBold text-[33px] leading-8 mt-3 sm:mt-5 sm:w-[13rem] sm:leading-9">Gabrielle Essence Eau De Parfum</p>
+      <p class="font-montserratMedium text-[14px] text-gray-500 mt-5 sm:mt-7">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+      Perfumer-Creator for the House of CHANEL.</p>
+      <div class="flex items-center mt-4 sm:mt-6">
+        <p class="font-frauncesBold text-[#3f7d65] text-[34px]">$149.99</p>
+        <p class="font-montserratRegular text-gray-500 text-[14px] line-through ml-5">$169.99</p>
+      </div>
+      <div class="bg-[#3f7d65] flex flex-row-reverse justify-center items-center py-[0.83rem] rounded-lg mt-3 hover:cursor-pointer hover:bg-[#064e3b] sm:mt-5">
+        <button class="font-montserratMedium text-[14px] text-white">Add to Cart</button>
+        <img class="mr-2" src="./images/icon-cart.svg" alt="icon-cart">
+      </div>
+    </div>
+  </div>
+  <div class="text-sm mb-2 ml-auto mr-auto w-fit sm:mb-0">
+    Challenge by <a class="underline text-blue-600" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a class="underline text-blue-600" href="https://www.frontendmentor.io/profile/Mahdyrll">Mahdyar</a>.
+  </div>
+</body>
+</html>

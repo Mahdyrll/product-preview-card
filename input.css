@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'montserrat-regular';
+        src: url('./design/fonts/Montserrat/static/Montserrat-Regular.ttf');
+    }
+
+    @font-face {
+        font-family: 'montserrat-medium';
+        src: url('./design/fonts/Montserrat/static/Montserrat-Medium.ttf');
+    }
+
+    @font-face {
+        font-family: 'montserrat-bold';
+        src: url('./design/fonts/Montserrat/static/Montserrat-Bold.ttf');
+    }
+
+    @font-face {
+        font-family: 'montserrat-semibold';
+        src: url('./design/fonts/Montserrat/static/Montserrat-SemiBold.ttf');
+    }
+
+    @font-face {
+        font-family: 'montserrat-light';
+        src: url('./design/fonts/Montserrat/static/Montserrat-Light.ttf');
+    }
+
+    @font-face {
+        font-family: 'montserrat-thin';
+        src: url('./design/fonts/Montserrat/static/Montserrat-Thin.ttf');
+    }
+
+    @font-face {
+        font-family: 'fraunces-bold';
+        src: url('./design/fonts/Fraunces/static/Fraunces_144pt-Bold.ttf');
+    }
+
+    @font-face {
+        font-family: 'fraunces-semibold';
+        src: url('./design/fonts/Fraunces/static/Fraunces_144pt-SemiBold.ttf');
+    }
+}
