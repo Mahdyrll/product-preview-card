@@ -27,7 +27,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 ### Built with
 
 -  HTML
-- [Tailwind](https://tailwindcss.com/)
+- [Tailwind](https://www.frontendmentor.io/solutions/product-preview-card-tailwind-EXWWOt_4Bq)
 
 ## Author
 
