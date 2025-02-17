@@ -22,6 +22,9 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 - Solution URL: (https://www.frontendmentor.io/solutions/product-preview-card-tailwind-EXWWOt_4Bq)
 
+- Live preview:
+ (https://mahdyrll.github.io/product-preview-card/) 
+
 ## My process
 
 ### Built with
